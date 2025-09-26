@@ -1,0 +1,103 @@
+.logo-text {
+    color: var(--white-color)
+}
+
+.nav-logo{
+    text-decoration: none;
+} 
+
+  .nav-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/*Importing Google Fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Miniver&family=Poppins:ital,wght@0,400;0,600;0,700;1,400;1,500&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root {
+
+    /* colors */
+    --white-color: #fff;
+    --dark-color: #252525;
+    --primary-color:#3b141c;
+    --secondary-color: #f3961c;
+    --light-pink-color: #faf4f5;
+    --medium-gray-color: #ccc;
+
+    /*font sizes */
+    --font-size-s: 0.9rem;
+    --font-size-n: 1rem;
+    --font-size-m: 1.12rem;
+    --font-size-l: 1.5rem;
+    --font-size-xl: 2rem;
+    --font-size-xxl: 2.3rem;
+    
+    /*font weight*/
+
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+
+    /* border radius */
+    --border-radius-s: 5px;
+    --border-radius-m: 30px;
+    --border-radus-circle: 50%;
+
+    /*Site Max Width */
+    --site-max-width: 1300px;
+
+
+    
+
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins" , sans-serif;
+}
+
+header{
+    background: var(--primary-color);
+}
+
+.nav-menu{
+    color: var(--white-color);
+}
+
+button{
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+img {
+    width: 100%;
+}
+
+header .navbar  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+
+}
+
+.navbar .nav-menu {
+    display: flex;
+    align-items: center;
+    
+    gap: 30px;
+}
+
+.navbar .nav-menu .nav-link {
+    color: var(--white-color);
+
+    background-color: #f3961c;
+    text-decoration: none;
+}
